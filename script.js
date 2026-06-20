@@ -1,1 +1,6 @@
-//your JS code here. If required.
+let status = document.getElementById('status')
+let ent = document.getElementById('enterBtn')
+
+ent.addEventListener( 'click' , function() {
+	status.innerHTML = "<h1>Enter the Metaverse</h1>"
+} )
